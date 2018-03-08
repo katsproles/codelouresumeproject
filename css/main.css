@@ -1,20 +1,29 @@
 /* Basic CSS */
-.work {
-    
+.header {
+    margin:0;
+    padding:0;
 }
 
 .education {
-
-}
-
+    width: 200px;
+    height: 300 px;
+    border: 1px black solid;
+    }
 .skills {
-
-}
-
-
+    width: 200px;
+    height: 300 px;
+    border: 1px black solid;
+    }
 
 /* Flex Container */
 
+#flex-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    border: none;
+}
 
 
 
